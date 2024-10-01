@@ -2,11 +2,31 @@
 
 
 /* header */
+.header-logo img{
+    vertical-align: middle;
+    height: 200px;
+}
 
+.header-text {
+    vertical-align: middle;
+}
 
 /* main */
 body {
     background-color: white;
+}
+
+/* bottons */
+.task {
+    color: aliceblue;
+    background-color: darkturquoise;
+    padding: 20px;
+    border-radius: 20%;
+    font
+}
+
+.section {
+    color: ;
 }
 
 .container {
