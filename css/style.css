@@ -1,32 +1,79 @@
-/* common*/
+/* colors
+#14AAF5 
+#AD62F6
+#EDF2F7
+#33C7AD
+*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
 
 /* header */
-.header-logo img{
+.header {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.header img{
     vertical-align: middle;
     height: 200px;
 }
 
-.header-text {
+.title {
+    font-family: Arial, Helvetica, sans-serif;
     vertical-align: middle;
 }
 
 /* main */
+.actions-section {
+    margin-bottom: 3px;
+    padding: 20px 40px;
+    }
+  
+ 
+.todos-section {
+    padding: 40px;
+    }   
+    
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+}
+
+.container {
+    width: 70%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+.btn{
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn-light {
+    background-color: white;
+    color: grey;
+    border-color: grey;
+}
+
+
+.bg-white {
+    background-color: whitesmoke;
+}
+
+.actions-section {
+    margin-bottom: 30px;
 }
 
 .lists, .nt-list, .t-list, u.list {
 list-style: none;
-}
-
-/* bottons */
-.task {
-    color: aliceblue;
-    background-color: darkturquoise;
-    padding: 20px;
-    border-radius: 20%;
-    font
 }
 
 .section {

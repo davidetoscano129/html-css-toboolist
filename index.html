@@ -10,29 +10,36 @@
 
 <body>
 
-    <header>
+    <header class="header">
+
         <!-- Logo toboolist -->
         <div class="header-logo">
-            <img src="img/Logo.png" alt="Logo toboolist">
-            <span class="header-text">Toboolist</span>
+            <img class="logo" src="img/Logo.png" alt="Logo toboolist">
+            <span class="title">Toboolist</span>
         </div>
 
     </header>
 
+    <!-- Main -->
     <main>
+
         <!-- Task and section buttons -->
-        <section>
-            <p><span class="task">Add Task</span> <span class="section">Add Section</span></p>
-        </section>
+        <section class="container bg-white actions-sections">
+            <button class="btn btn-blue">Add task</button>
+            <button class="btn btn-light">Add section</button>
+        </section>s
+
         <!-- Lists section -->
-        <section>
+        <section class="container bg-white list-section">
             <ul class="lists">
+
                 <!-- New task list-->
                 <li>New Task
                     <ul class="nt-list">
                         <li>&check; Quartery newsletter <span>editorial</span></li>
                     </ul>
                 </li>
+
                 <!-- Today list  -->
                 <li>Today
                     <ul class="t-list">
@@ -42,6 +49,7 @@
                         <li>&check Summit update to mobile storefronts <span>Mobile</span></li>
                     </ul>
                 </li>
+
                 <!-- Upcoming list -->
                 <li>Upcoming
                     <ul class="u-list">
