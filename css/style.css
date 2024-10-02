@@ -99,14 +99,16 @@
   }
   
   .circle {
-    border: 1px solid black;
-    width: var(--sircle-size);
-    height: var(--sircle-size);
+    border: 1px solid #8FC1A9; /* Colore del bordo verde chiaro */
+    width: 18px; /* Riduci la dimensione del cerchio */
+    height: 18px;
     display: inline-block;
     border-radius: 50%;
-    line-height: var(--sircle-size);
+    line-height: 18px; /* Assicurati che il contenuto sia centrato verticalmente */
     text-align: center;
-    font-size: 20px;
+    font-size: 12px; /* Riduci la dimensione del simbolo */
+    color: #8FC1A9; /* Colore del simbolo di spunta verde chiaro */
+}
   }
   
   .circle.check {
